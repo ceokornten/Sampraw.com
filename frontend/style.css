@@ -53,6 +53,26 @@ header {
     margin: 2rem auto;
     padding: 0 1rem;
 }
+
+#postForm {
+    margin-bottom: 1rem;
+}
+
+#postForm input {
+    padding: 0.5rem;
+    width: 70%;
+}
+
+#postForm button {
+    padding: 0.5rem 1rem;
+}
+
+#posts article {
+    background: #f9f9f9;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
 @media (max-width: 600px) {
     #playlist {
         flex-direction: column;

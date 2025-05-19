@@ -29,14 +29,11 @@
     </section>
     <section id="blog">
         <h2>Blog</h2>
-        <article>
-            <h3>First Post</h3>
-            <p>This is the first blog post on Sampraw.com. Stay tuned for more content!</p>
-        </article>
-        <article>
-            <h3>Another Post</h3>
-            <p>Here is another entry on our simple blog. We hope you enjoy the video playlist and slideshow above.</p>
-        </article>
+        <form id="postForm">
+            <input type="text" id="postContent" placeholder="New post" required>
+            <button type="submit">Add</button>
+        </form>
+        <div id="posts"></div>
     </section>
     <script src="script.js"></script>
 </body>
