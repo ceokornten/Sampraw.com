@@ -1,18 +1,20 @@
 // Slideshow functionality
+// Rotate through slides using a fixed interval
 let slideIndex = 0;
 const slides = document.querySelectorAll('#slideshow .slide');
-function showSlides() {
+
+function showSlide(index) {
     slides.forEach((slide, i) => {
-        slide.classList.remove('active');
-        if (i === slideIndex) {
-            slide.classList.add('active');
-        }
+        slide.classList.toggle('active', i === index);
     });
-    slideIndex = (slideIndex + 1) % slides.length;
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
+
 if (slides.length > 0) {
-    showSlides();
+    showSlide(slideIndex);
+    setInterval(() => {
+        slideIndex = (slideIndex + 1) % slides.length;
+        showSlide(slideIndex);
+    }, 3000); // Change image every 3 seconds
 }
 
 // Video playlist functionality
