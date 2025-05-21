@@ -5,10 +5,25 @@ body {
     line-height: 1.6;
 }
 header {
-    background: #333;
+    background: #004aad;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+}
+nav a {
+    color: #004aad;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
 }
 #slideshow {
     position: relative;
