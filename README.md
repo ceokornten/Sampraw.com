@@ -4,7 +4,11 @@ This repository contains the static landing page for **NoLimit**. The project no
 
 ## Viewing the Site
 
-To view the site locally, clone this repository and open `index.html` or any of the other pages (`blog.html`, `videos.html`, `gallery.html`) in your favorite browser.
+To view the site locally, you can either open the static HTML files directly or run the included Node.js server.
+
+### Opening the static files
+
+Clone this repository and open `index.html` or any of the other pages (`blog.html`, `videos.html`, `gallery.html`) in your favorite browser.
 
 ```
 # Example
@@ -12,6 +16,17 @@ $ git clone <repo-url>
 $ cd Sampraw.com
 $ xdg-open index.html  # or open index.html on your system
 ```
+
+### Running the Express server
+
+If you have Node.js installed, you can start a local server using Express to serve the pages:
+
+```
+$ npm install
+$ npm start
+```
+
+The site will be available at `http://localhost:3000` by default.
 
 ## Project Structure
 
