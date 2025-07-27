@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-green-200 to-green-500 min-h-screen text-gray-800;
+}
+
+.card {
+  @apply bg-white bg-opacity-70 backdrop-blur-lg rounded-xl p-4 shadow;
+}
