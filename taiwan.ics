@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Taiwan Trip Itinerary//example.com//
+BEGIN:VEVENT
+SUMMARY:Arrive Taiwan - Hyatt Regency Taoyuan
+DTSTART:20250915T220000Z
+DTEND:20250916T080000Z
+DESCRIPTION:Check-in Hyatt Regency Taoyuan International Airport
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stay at ILLUME Taipei
+DTSTART:20250916T140000Z
+DTEND:20250919T110000Z
+DESCRIPTION:Base in Taipei for sightseeing, local food, tech visits
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dinner - Ming Fu Seafood (Taipei)
+DTSTART:20250916T190000Z
+DTEND:20250916T210000Z
+DESCRIPTION:Michelin Guide seafood restaurant in Taipei
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Travel Taipei to Tainan - Stay Silks Place Tainan
+DTSTART:20250918T110000Z
+DTEND:20250919T110000Z
+DESCRIPTION:HSR Taipei to Tainan (~1h30m). Explore Tainan & Night Market
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dinner - Dong Shang Taiwanese Seafood (Tainan)
+DTSTART:20250918T190000Z
+DTEND:20250918T210000Z
+DESCRIPTION:Bib Gourmand seafood restaurant in Tainan
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Travel Tainan to Kaohsiung - Stay Silks Club Kaohsiung
+DTSTART:20250919T110000Z
+DTEND:20250920T110000Z
+DESCRIPTION:HSR Tainan to Kaohsiung (~12 min). Explore Kaohsiung
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dinner - Good Crab House (Kaohsiung)
+DTSTART:20250919T190000Z
+DTEND:20250919T210000Z
+DESCRIPTION:Michelin Guide seafood restaurant in Kaohsiung
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Return Kaohsiung to Taipei - Stay ILLUME Taipei
+DTSTART:20250920T110000Z
+DTEND:20250921T110000Z
+DESCRIPTION:HSR Kaohsiung to Taipei (~1h45m). Final night before Shanghai flight
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Flight MU5008 Taipei → Shanghai
+DTSTART:20250921T150000Z
+DTEND:20250921T173000Z
+DESCRIPTION:Depart TPE Terminal 2 → Arrive PVG Terminal 1
+END:VEVENT
+END:VCALENDAR
